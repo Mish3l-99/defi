@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+:root {
+  --primary: #df4923;
+  --secondary: #fbc59d;
+  --primary-blue: #00d8ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#community {
+  background-image: url("../src/assets/subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@layer base {
+  body {
+    @apply font-[Kanit] bg-[#0c0202] text-gray-200;
+  }
+  button {
+    @apply px-4 py-1 text-lg md:text-xl rounded cursor-pointer;
+  }
+  .btn {
+    @apply bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] text-black;
+  }
+  .btn-outline {
+    @apply bg-transparent border border-[#df4923] text-[#df4923];
+  }
+  .nav-container {
+    @apply w-full px-3 py-2 flex justify-between text-gray-200;
+  }
+  #navbar li {
+    @apply mx-2 px-2 hover:text-slate-500 duration-500;
+  }
+  .container {
+    @apply max-w-[1240px] mx-auto px-2 w-full;
+  }
+  .mobnav {
+    @apply w-full md:hidden absolute p-4 bg-black text-gray-200;
+  }
+  .mobnav ul {
+    @apply mb-6;
+  }
+  .mobnav li {
+    @apply py-2 text-lg;
+  }
+  .logo {
+    @apply font-bold text-[#e46748] text-4xl md:text-5xl cursor-pointer hover:text-[#df4923] duration-500;
+  }
+  .hero {
+    @apply w-full h-[90%] object-contain text-gray-200;
+  }
+  #video {
+    @apply absolute w-full h-full object-cover z-[-1];
+  }
+  .dev-p a {
+    @apply text-[#df4923] hover:text-[#e46748] cursor-pointer;
+  }
+  #community {
+    @apply h-[350px];
+  }
+  input {
+    @apply focus:outline-none border border-white bg-gray-300;
+  }
+  #footer li {
+    @apply cursor-pointer py-[2px] hover:text-[#00d8ff] duration-300;
+  }
 }
