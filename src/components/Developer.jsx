@@ -3,7 +3,7 @@ import devImg from "../assets/terminal.png";
 
 const Developer = () => {
   return (
-    <div id="developers" className="w-full py-8">
+    <div id="developers" className="w-full py-12">
       <div className="container px-4">
         <div className="grid md:grid-cols-2 gap-2">
           <div className="flex flex-col justify-center">

@@ -3,7 +3,7 @@ import { FiAperture, FiCodesandbox, FiSlack, FiLayers } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div id="about" className="w-full mt-[50px] md:mt-[80px]">
+    <div id="about" className="w-full mt-[50px] md:mt-[80px] py-12">
       <div className="container">
         <div className="my-4 text-center">
           <h1 className="my-4 text-2xl md:text-5xl text-white font-bold">
