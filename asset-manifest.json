@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/defi/static/css/main.c9df716c.css",
-    "main.js": "/defi/static/js/main.d39cb695.js",
+    "main.css": "/defi/static/css/main.045835ee.css",
+    "main.js": "/defi/static/js/main.d5e79841.js",
     "static/media/video.mp4": "/defi/static/media/video.8a3d94dc4710a15f9169.mp4",
     "static/media/subscribe.jpg": "/defi/static/media/subscribe.5e6ecdcfa451a31625d0.jpg",
     "static/media/terminal.png": "/defi/static/media/terminal.008c23b28e62ddbd576c.png",
     "index.html": "/defi/index.html",
-    "main.c9df716c.css.map": "/defi/static/css/main.c9df716c.css.map",
-    "main.d39cb695.js.map": "/defi/static/js/main.d39cb695.js.map"
+    "main.045835ee.css.map": "/defi/static/css/main.045835ee.css.map",
+    "main.d5e79841.js.map": "/defi/static/js/main.d5e79841.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9df716c.css",
-    "static/js/main.d39cb695.js"
+    "static/css/main.045835ee.css",
+    "static/js/main.d5e79841.js"
   ]
 }
