@@ -3,7 +3,7 @@ import React from "react";
 const Community = () => {
   return (
     <div id="community" className="w-full">
-      <div className="container w-full h-full bg-[#0c0202]/80 flex flex-col justify-center">
+      <div className="container w-full h-full bg-[#0c0202]/90 flex flex-col justify-center">
         <div className="mx-auto text-center">
           <h1 className="text-2xl md:text-5xl font-bold my-6">
             Join Our DeFi Community

@@ -10,6 +10,10 @@
   --primary-blue: #00d8ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #community {
   background-image: url("../src/assets/subscribe.jpg");
   background-size: cover;

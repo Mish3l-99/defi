@@ -16,7 +16,7 @@ const Navbar = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#platform">Platform</a>
+              <a href="#footer">Platform</a>
             </li>
             <li>
               <a href="#developers">Developers</a>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </li>
           <li onClick={handleNav}>
-            <a href="#platform">Platform</a>
+            <a href="#footer">Platform</a>
           </li>
           <li onClick={handleNav}>
             <a href="#developers">Developers</a>
